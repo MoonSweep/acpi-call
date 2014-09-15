@@ -1,0 +1,7 @@
+# Watch file
+# See uscan(1) for format
+
+# Compulsory line, this is a version 3 file
+version=3
+
+opts="filenamemangle=s/(?:.*)?v?(\d[\d\.]*)\.tar\.gz/acpi_call-$1.tar.gz/" https://github.com/mkottman/acpi_call/releases (?:.*/)?v?(\d[\d\.]*)\.tar\.gz

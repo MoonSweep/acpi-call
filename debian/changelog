@@ -1,0 +1,5 @@
+acpi-call (1.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #760338)
+
+ -- Raphaël Halimi <raphael.halimi@gmail.com>  Wed, 03 Sep 2014 04:30:34 +0200
