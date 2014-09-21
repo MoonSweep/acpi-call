@@ -1,3 +1,9 @@
+acpi-call (1.1.0-2~bpo70+1) wheezy-backports; urgency=medium
+
+  * Rebuild for wheezy-backports.
+
+ -- Raphaël Halimi <raphael.halimi@gmail.com>  Sun, 21 Sep 2014 03:58:04 +0200
+
 acpi-call (1.1.0-2) unstable; urgency=medium
 
   * Add patch to fix compatibility with Linux 3.17 (Closes: #762281)
