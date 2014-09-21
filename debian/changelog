@@ -1,8 +1,9 @@
-acpi-call (1.1.0-1~bpo70+1) wheezy-backports; urgency=medium
+acpi-call (1.1.0-2) unstable; urgency=medium
 
-  * Rebuild for wheezy-backports.
+  * Add patch to fix compatibility with Linux 3.17 (Closes: #762281)
+  * Add Vcs-Browser and Vcs-Git fields to debian/control
 
- -- Raphaël Halimi <raphael.halimi@gmail.com>  Mon, 15 Sep 2014 08:53:44 +0200
+ -- Raphaël Halimi <raphael.halimi@gmail.com>  Sun, 21 Sep 2014 03:43:48 +0200
 
 acpi-call (1.1.0-1) unstable; urgency=low
 
