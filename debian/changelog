@@ -1,3 +1,12 @@
+acpi-call (1.1.0-3) unstable; urgency=low
+
+  * Update Vcs-* fields
+  * Update debian/watch file
+  * Add debian/gbp.conf
+  * Bump Standards-Version to 3.9.7, no changes required
+
+ -- Raphaël Halimi <raphael.halimi@gmail.com>  Mon, 21 Mar 2016 18:07:27 +0100
+
 acpi-call (1.1.0-2) unstable; urgency=medium
 
   * Add patch to fix compatibility with Linux 3.17 (Closes: #762281)
