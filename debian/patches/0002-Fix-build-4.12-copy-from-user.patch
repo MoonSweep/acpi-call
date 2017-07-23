@@ -1,0 +1,20 @@
+Description: Fix build failure on 4.12
+ Include the correct header for copy_from_user prototype
+Author: Colin Ian King <colin.king@ubuntu.com>
+Origin: vendor, https://bugs.launchpad.net/ubuntu/+source/acpi-call/+bug/1700783
+Bug-Ubuntu: https://bugs.launchpad.net/ubuntu/+source/acpi-call/+bug/1700783
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=868110
+Last-Update: 2017-07-23
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/acpi_call.c
++++ b/acpi_call.c
+@@ -6,7 +6,7 @@
+ #include <linux/proc_fs.h>
+ #include <linux/slab.h>
+ #include <linux/acpi.h>
+-#include <asm/uaccess.h>
++#include <linux/uaccess.h>
+ 
+ MODULE_LICENSE("GPL");
+ 
