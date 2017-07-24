@@ -1,3 +1,15 @@
+acpi-call (1.1.0-4) unstable; urgency=low
+
+  * [45b90c6] Fix build failure on 4.12.
+    Include the correct header for copy_from_user prototype
+    Thanks to Colin Ian King for the patch (Closes: #868110)
+    (LP: #1700783, #1705678)
+  * [ba63573] Bump Standards-Version to 4.0.0, no changes needed
+  * [7640fff] Bump debhelper compat to 10
+  * [ea4dd52] Drop build-dependency on dpkg-dev
+
+ -- Raphaël Halimi <raphael.halimi@gmail.com>  Mon, 24 Jul 2017 20:58:44 +0200
+
 acpi-call (1.1.0-3) unstable; urgency=low
 
   * Update Vcs-* fields
