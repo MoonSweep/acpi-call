@@ -1,3 +1,9 @@
+acpi-call (1.1.0-4~bpo8+1) jessie-backports-sloppy; urgency=low
+
+  * Rebuild for stretch-backports-sloppy.
+
+ -- Raphaël Halimi <raphael.halimi@gmail.com>  Mon, 24 Jul 2017 21:06:39 +0200
+
 acpi-call (1.1.0-4) unstable; urgency=low
 
   * [45b90c6] Fix build failure on 4.12.
