@@ -2,7 +2,7 @@ Source: acpi-call
 Section: kernel
 Priority: optional
 Maintainer: Raphaël Halimi <raphael.halimi@gmail.com>
-Build-Depends: debhelper (>= 10), dpkg-dev (>= 1.16.1~), dkms
+Build-Depends: debhelper (>= 10), dkms
 Standards-Version: 4.0.0
 Homepage: https://github.com/mkottman/acpi_call
 Vcs-Browser: https://github.com/MoonSweep/acpi-call.git
