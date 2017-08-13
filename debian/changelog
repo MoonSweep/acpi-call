@@ -1,6 +1,6 @@
 acpi-call (1.1.0-4~bpo8+1) jessie-backports-sloppy; urgency=low
 
-  * Rebuild for stretch-backports-sloppy.
+  * Rebuild for jessie-backports-sloppy.
 
  -- Raphaël Halimi <raphael.halimi@gmail.com>  Mon, 24 Jul 2017 21:06:39 +0200
 
