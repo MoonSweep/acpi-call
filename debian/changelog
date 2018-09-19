@@ -1,3 +1,9 @@
+acpi-call (1.1.0-5) UNRELEASED; urgency=medium
+
+  * Use secure copyright file specification URI.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 19 Sep 2018 09:58:45 +0100
+
 acpi-call (1.1.0-4) unstable; urgency=low
 
   * [45b90c6] Fix build failure on 4.12.
